@@ -1,0 +1,39 @@
+body, html {
+    margin: 0;
+    padding: 0;
+    font-family: 'Arial', sans-serif;
+    background-color: #babfc8;
+    color: #8061fb;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+  }
+  
+  .box {
+    text-align: center;
+  }
+  
+  .key-display p {
+    font-size: 2rem;
+    margin-bottom: 20px;
+  }
+  
+  .key-info {
+    font-size: 2rem;
+    background-color: #20232a;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 15px 15px 80px rgba(24, 5, 5, 0.2);
+  }
+  
+  .key-info span {
+    display: block;
+    margin: 10px 0;
+  }
+  
+  .key, .keycode {
+    font-weight: bold;
+    font-size: 1.5rem;
+  }
+  
